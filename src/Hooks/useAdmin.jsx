@@ -9,8 +9,9 @@ const useAdmin = () => {
     const {data: isAdmin, isPending: isAdminPending} = useQuery({
         queryKey:[user?.email, 'isAdmin'],
         // enabled: !!user?.email,
-        enabled: !loading,
+        enabled: !loading && !!user,
         queryFn: async()=>{
+            console.log('error from useAdmin');
             const {data} = await axios.get(`/users/${user?.email}`)
             return data.admin
         }

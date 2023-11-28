@@ -70,7 +70,7 @@ const Router = createBrowserRouter([
             },
             {
                 path:'edit-item/:id',
-                loader: ({params}) => axios.get(`http://localhost:8080/menus/${params.id}`),
+                loader: ({params}) => axios.get(`https://bistro-boss-server-two-wine.vercel.app/menus/${params.id}`),
                 element: <AdminRouter><EditItem/></AdminRouter>
             },
             {
