@@ -1,8 +1,34 @@
-# React + Vite
+# Bistro Boss Client (Restaurant Management Website)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the client-side application for Bistro Boss, a restaurant management website.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project contains the front-end code for Bistro Boss, offering features for restaurant management.
+
+## Technologies Used
+
+- React
+
+## Setup
+
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Configure the backend URL for API calls.
+
+## Structure
+
+- `src/`: Directory containing the React source code.
+  - `components/`: Components used to build the user interface.
+  - `main.js`: Main component handling the application structure.
+  - Other relevant files.
+
+## Features
+
+- Menu display and management.
+- Order processing and management.
+
+## Usage
+
+- Integrate this frontend with a backend system for complete functionality.
+- Run the frontend using `npm start`.
